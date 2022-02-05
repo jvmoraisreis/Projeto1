@@ -13,6 +13,7 @@ class D {
     void setD2(char _n);
     void MD1();
     void MD2();
+    void MD3();
 };
 
 //Getters and Setters
@@ -36,5 +37,9 @@ void D::MD1() {
 void D::MD2() {
     cout << "MD2" << endl;
 }
+void D::MD3() {
+    cout << "MD3" << endl;
+}
+
 
 int main(){}
