@@ -12,7 +12,7 @@ class B {
     void setB2(float _n);
     void MB1();
     void MB2();
-
+    void MB3();
 };
 
 //Getters and Setters
@@ -35,6 +35,9 @@ void B::MB1() {
 }
 void B::MB2() {
     cout << "MB2" << endl;
+}
+void B::MB3() {
+    cout << "MB3" << endl;
 }
 
 int main(){}
